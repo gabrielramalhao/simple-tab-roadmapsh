@@ -1,13 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .navbar > li {
   display: flex;
   justify-content: space-evenly;
 }
 
-.navbar > li:hover {
+.navbar > li > ul {
+  display: inline-block;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+.navbar > li > ul:hover {
   cursor: pointer;
+  background-color: gray;
 }
 
 .tabs {
+  margin: 20px auto;
+  display: inline-block;
+  background-color: gray;
+  display: inline-block;
+  padding: 100px;
+  border-radius: 20px;
   text-align: center;
 }
 
