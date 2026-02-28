@@ -1,0 +1,20 @@
+.navbar > li {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar > li:hover {
+  cursor: pointer;
+}
+
+.tabs {
+  text-align: center;
+}
+
+.square {
+  padding: 50px 200px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
